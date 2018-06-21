@@ -21,4 +21,3 @@ LABEL maintainer='docker@merxnet.io'
 COPY --from=build /xmrig/build/xmrig /usr/local/bin/xmrig
 
 ENTRYPOINT ["xmrig"]
-CMD ["-h"]
