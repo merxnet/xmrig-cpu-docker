@@ -4,7 +4,7 @@ ARG ALPINE_VERSION=3.8
 
 FROM ubuntu:${UBUNTU_VERSION} AS build
 
-ENV VERSION 'v2.8.3'
+ENV VERSION 'v2.10.0'
 
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
